@@ -90,26 +90,34 @@
     </header>
 
     <main>
-
       <div class="flex flex-col items-center p-4 text-center">
-        <h1 class="mb-4 text-4xl font-bold" id="sobrenos">Qualidade</h1>
+        <h1 class="text-4xl font-bold mb-4" id="home">Qualidade</h1>
+
 
         <div
-          class="flex flex-col md:flex-row-reverse items-center gap-4 w-full"
+          class="flex w-full max-w-2xl flex-col items-center gap-4 md:flex-row md:justify-between"
         >
-        <img
-          src="img/bolo-laranja.jpeg"
-          alt="Bolo de laranja"
-          class="h-32 w-32 object-cover md:h-48 md:w-48 rounded-tr-4xl rounded-bl-4xl"
-        />
-          <p class="text-lg text-gray-700">
-            Conheça nossos bolos 100% caseiros, feitos com ingredientes selecionados!
+          <p
+            class="max-w-2xl text-center text-lg text-gray-700 md:order-2 md:w-1/3"
+          >
+            Conheça nossos bolos 100% caseiros, feitos com ingredientes
+            selecionados!
           </p>
-          <img
-            src="img/vulcao-chocolate.jfif"
-            alt="Bolo Vulcão de chocolate"
-            class="h-32 w-32 object-cover md:h-48 md:w-48 rounded-tr-4xl rounded-bl-4xl"
-          />
+
+          <div class="flex flex-row gap-4 md:contents">
+
+            <img
+              src="img/bolo-laranja.jpeg"
+              alt="Bolo de laranja"
+              class="h-32 w-32 rounded-tr-4xl rounded-bl-4xl object-cover  md:order-1 md:h-48 md:w-48"
+            />
+
+            <img
+              src="img/vulcao-chocolate.jfif"
+              alt="Bolo Vulcão de chocolate"
+              class="h-32 w-32 rounded-tr-4xl rounded-bl-4xl object-cover translate-y-8 md:order-3 md:h-48 md:w-48"
+            />
+          </div>
         </div>
       </div>
 
@@ -117,7 +125,7 @@
         <h2 class="mb-4 text-3xl font-bold" id="sobrenos">Sobre nós</h2>
 
         <div
-          class="flex flex-col md:flex-row-reverse items-center gap-4 w-full"
+          class="flex w-full flex-col items-center gap-4 md:flex-row-reverse"
         >
           <p class="text-lg text-gray-700">
             Bolos Deliciosos e Sobremesas Tentadoras! Bem-vindo ao nosso site,
@@ -137,7 +145,6 @@
           />
         </div>
       </div>
-
     </main>
 
     <footer></footer>
